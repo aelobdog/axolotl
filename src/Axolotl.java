@@ -4,7 +4,6 @@ import java.io.*;
 
 //--------------------------------------------------------------------------------------------------------------
 /*
-
     Axolotl.
     A pseudo-programming languages used to write programs in multiple languages with a really simplified syntax,
     in order to facilitate easy learning of programming languages to novice programmers.
@@ -15,9 +14,14 @@ import java.io.*;
     License : GNU GPL v3
 
     Refer to LICENSE.txt inside the folder.
-
 */
-//--------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------
+    Changes made by Ashwin Godbole (co-author of original version) :
+        Added documentation.
+        (Also,
+            original author of the functions genFor(), whi(), dowhi(), typedet(), sw() and certain others.
+         )
+--------------------------------------------------------------------------------------------------------------*/
 
 class Axolotl
 {
@@ -382,8 +386,6 @@ class Axolotl
     public static int vindex = 0;
     public static int tmpInd = 0;
     private static String storeForTheTimeBeing[];
-
-
     public static String var(String a)
     {
 

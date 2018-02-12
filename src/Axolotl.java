@@ -2,41 +2,22 @@ import java.util.*;
 import java.nio.file.*;
 import java.io.*;
 
-//----------------------------------
-
+//--------------------------------------------------------------------------------------------------------------
 /*
 
-    Official Documentation : http://ctrl-c.club/~greymtr/projects/Axolotl.html
-                         http://ctrl-c.club/~greymtr/Documentation.html
-
-*/
-
-//--------------
-
-/*
-
-    Axolotl. A pseudo-programming languages used to write programs in multiple languages with a really simplified syntax, in order to facilitate easy learning of programming languages to novice programmers.
+    Axolotl.
+    A pseudo-programming languages used to write programs in multiple languages with a really simplified syntax,
+    in order to facilitate easy learning of programming languages to novice programmers.
+    
     Copyright (C) 2016  Greymtr Smith.
-
+    Copyright (C) 2018  Ashwin Godbole.
+    
     License : GNU GPL v3
 
     Refer to LICENSE.txt inside the folder.
 
 */
-
-//--------------
-
-/*
-
-    Please support us ! Recommend our software to programming beginners...
-    Spread the word ! Distribute the software.
-    As a user you are legally invested with the power to distribute, modify and share modified work provided it is licensed under the terms of the GNY GPLv3 or any other compatible copyleft software.
-
-*/
-
-//----------------------------------
-
-
+//--------------------------------------------------------------------------------------------------------------
 
 class Axolotl
 {
@@ -130,8 +111,7 @@ class Axolotl
 
         }
 
-
-    //--------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
 
 
     public static String display(String text)throws Exception
@@ -144,7 +124,7 @@ class Axolotl
       return out;
     }
 
-    //--------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
 
     public static String input(String s) throws Exception
     {
@@ -163,7 +143,7 @@ class Axolotl
         return str;
     }
 
-    //--------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
 
     public static String genFor(String str) throws Exception
     {
@@ -208,7 +188,7 @@ class Axolotl
 
     }
 
-    //--------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
 
     public static String whi(String inp)throws Exception
     {
@@ -219,7 +199,7 @@ class Axolotl
         return out;
     }
 
-    //--------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
 
     public static String dowhi(String inpu) throws Exception
     {
@@ -230,7 +210,7 @@ class Axolotl
         return outp;
     }
 
-    //--------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
 
     public static String else_(String str)
     {
@@ -239,7 +219,7 @@ class Axolotl
         return elseCode;
     }
 
-    //--------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
 
     public static String if_(String str)
     {
@@ -249,7 +229,7 @@ class Axolotl
         return out;
     }
 
-    //--------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
 
     public static String sep(String in_data) throws Exception
     {
@@ -298,7 +278,7 @@ class Axolotl
 
     }
 
-    //--------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
 
     public static String process(String content,String tag) throws Exception
     {
@@ -339,8 +319,8 @@ class Axolotl
 
         return out;
     }
-
-    //--------------------------------------------------------------------------
+    
+//--------------------------------------------------------------------------------------------------------------
 
     public static boolean check(String x)throws Exception
     {
@@ -350,18 +330,14 @@ class Axolotl
 
     }
 
-    //--------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
 
     public static String w(String x)throws Exception
     {
         return "Thread.sleep(" + x.trim() + "000"+");\n";
     }
 
-    //--------------------------------------------------------------------------
-
-
-
-//------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
 
 
     static int index = 0;
@@ -542,7 +518,7 @@ class Axolotl
         return out;
     }
 
-    //--------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
 
     public static String typedet(String a)
     {
@@ -570,4 +546,4 @@ class Axolotl
     }
 }
 
-//------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------

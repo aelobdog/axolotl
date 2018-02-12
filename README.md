@@ -8,9 +8,7 @@
 <img src = "logo.png" align = "center" style = "border-radius:5px" > 
 </p>
 
----
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Greymtr/axolotl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
----
+
  __Axolotl__ is a _pseudo -_ programming langauge.
 
 
@@ -56,9 +54,3 @@ $
 INSTALLATION
 
 In order to use Axolotl you need to perform a few steps.
-
-
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Greymtr/axolotl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-

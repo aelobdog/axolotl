@@ -1,14 +1,6 @@
 
 # Axolotl 
 
-#### One Syntax to rule them all !
-
-
-<p align = "center">
-<img src = "logo.png" align = "center" style = "border-radius:5px" > 
-</p>
-
-
  __Axolotl__ is a _pseudo -_ programming langauge.
 
 
@@ -54,3 +46,10 @@ $
 INSTALLATION
 
 In order to use Axolotl you need to perform a few steps.
+If you're using git, you can clone the project into your directory of choice by doing :
+
+```sh
+$ git clone https://github.com/ashvin-godbole/axolotl.git
+$ cd axolotl/bin/
+$ java Axolotl // Note that the program will prompt you the right syntax.
+```

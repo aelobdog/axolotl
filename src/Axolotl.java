@@ -9,7 +9,7 @@ import java.io.*;
     in order to facilitate easy learning of programming languages to novice programmers.
     
     Copyright (C) 2016  Greymtr Smith.
-    Copyright (C) 2018  Ashwin Godbole.
+    Copyright (C) 2016  Ashwin Godbole.
     
     License : GNU GPL v3
 

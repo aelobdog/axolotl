@@ -21,7 +21,7 @@ See the LICENSE for more information.
 `Copyright (c) 2016 Greymtr Smith, Ashwin Godbole`
 
 == Syntax :
-===== Print / Display
+==== Print / Display
 [source]
 ----
     <d] TEXT TO BE DISPLAYED [d>
@@ -30,7 +30,7 @@ See the LICENSE for more information.
 Text to be displayed is written inside the "d" tag.
 "d" stands for display [duh !]
 
-===== Input tag
+==== Input tag
 [source]
 ----
     <i] {var} [i>
@@ -40,7 +40,7 @@ Text to be displayed is written inside the "d" tag.
 stored in. Prompt for input is not included in the syntax. Prompt to be
 given in display tag.
 
-===== While loops
+==== While loops
 [source]
 ----
     <wh] (condition) CODE [wh>
@@ -56,7 +56,7 @@ closed properly and the statements are syntactically correct, AXOLOTL
 will generate the equivalent loop in the syntax of the language of your
 choice.
 
-===== Do-while loops
+==== Do-while loops
 [source]
 ----
     <dw] CODE (condition) [dw>
@@ -72,7 +72,7 @@ choice.
 "condition" is a statement that must return a Boolean. Some examples may
 be `"x < 5"` or `"s == 1"` [The quotation marks are not part of the syntax].
 
-===== Wait
+==== Wait
 [source]
 ----
     <w] seconds [w>
@@ -81,7 +81,7 @@ be `"x < 5"` or `"s == 1"` [The quotation marks are not part of the syntax].
 Wait will halt the processor for the given number of seconds. This
 feature can be used in making some pretty amazing text animations.
 
-===== Switch-case
+==== Switch-case
 [source]
 ----
     <sw]
@@ -137,7 +137,7 @@ blocks, one can achieve great many things. The "CODE" inside the
 brackets adjacent to the "\#" may consist of one or more tag statements
 one after the other.
 
-===== For loops
+==== For loops
 We do have a syntax for "for-loops" but currently it is optimized only
 for "Java" and "C" and "C++". Therefore it has not been mentioned here.
 Nevertheless if you want it, it is there on the address given below.

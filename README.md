@@ -1,18 +1,16 @@
-
 # Axolotl 
 
  __Axolotl__ is a _pseudo -_ programming langauge.
 
-
 For those of you familiar with markdown, Axolotl is similar to Markdown, but instead of dealing with HTML it deals with numerous other languages.
 
-Axolotl takes it's input in a simplified tag-based syntax and converts it to your language of choice.
+Axolotl takes it's input in a simplified tag-based syntax and converts it to your language of choice (For now, axolotl can only convert to Java).
 
 You can write code along with Axolotl code as Axolotl has limited functionality and is designed primarily as an educational tool and a utility which helps in the creation of easily readable code in a fast way.
 
 Axolotl is still in it's beta stages.
 
-
+### Example
 
 ```sh
 $ cat input
@@ -43,7 +41,7 @@ System.out.println(" Hello World ! ");
 $ 
 ``` 
 
-INSTALLATION
+### Installation
 
 In order to use Axolotl you need to perform a few steps.
 If you're using git, you can clone the project into your directory of choice by doing :
@@ -53,3 +51,7 @@ $ git clone https://github.com/ashvin-godbole/axolotl.git
 $ cd axolotl/bin/
 $ java Axolotl // Note that the program will prompt you the right syntax.
 ```
+
+### Documentation
+
+Documentation available in the file `docs.adoc`

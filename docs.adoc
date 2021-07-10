@@ -1,5 +1,5 @@
 == Introduction :
-Axolotl is a new /pseudo-programming/ language.
+Axolotl is a new _pseudo_-programming language.
 
 What is a "pseudo programming language" ? This means that the Axolotl
 language is simply a more intuitive way of writing code and it does not
